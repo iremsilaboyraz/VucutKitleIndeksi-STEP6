@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class Vki {
+    public static void main(String[] args){
+
+        double kg,m,vki;
+        Scanner input=new Scanner(System.in);
+
+        System.out.printf("Kilonuzu kg cinsinden giriniz:");
+        kg=input.nextDouble();
+
+        System.out.printf("Boyunuzu metre cinsinden giriniz:");
+        m=input.nextDouble();
+
+        vki=kg/(m*m);
+
+        System.out.println("Vücut kitle indeksiniz:"+vki);
+
+    }
+}
